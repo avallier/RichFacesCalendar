@@ -1,15 +1,14 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
   http://maven.apache.org/maven-v4_0_0.xsd">
-  
-  <modelVersion>1.0.0</modelVersion>
-  <groupId>andre.vallier</groupId>
-  <artifactId>RichFacesCalendar</artifactId>
-  <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>JavaServerFaces Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+
+	<modelVersion>1.0.0</modelVersion>
+	<groupId>andre.vallier</groupId>
+	<artifactId>RichFacesCalendar</artifactId>
+	<packaging>war</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>JavaServerFaces Maven Webapp</name>
+	<url>http://maven.apache.org</url>
 
 	<dependencies>
 
@@ -66,19 +65,12 @@
 			<version>1.3.1</version>
 		</dependency>
 
-		<!-- <dependency>
-			<groupId>oro</groupId>
-			<artifactId>oro</artifactId>
-			<version>2.0.8</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>oro</groupId> <artifactId>oro</artifactId> <version>2.0.8</version> 
+			</dependency> -->
 
-		<!-- <dependency>
-			<groupId>org.richfaces</groupId>
-			<artifactId>richfaces-bom</artifactId>
-			<version>${org.richfaces.bom.version}</version>
-			<scope>import</scope>
-			<type>pom</type>
-		</dependency> -->  
+		<!-- <dependency> <groupId>org.richfaces</groupId> <artifactId>richfaces-bom</artifactId> 
+			<version>${org.richfaces.bom.version}</version> <scope>import</scope> <type>pom</type> 
+			</dependency> -->
 
 		<dependency>
 			<groupId>org.richfaces.ui</groupId>
@@ -88,17 +80,17 @@
 
 	</dependencies>
 
-    <repositories>
+	<repositories>
 		<repository>
 			<id>java.net.m2</id>
 			<name>java.net m2 repo</name>
 			<url>http://download.java.net/maven/2</url>
 		</repository>
 	</repositories>
-  
+
 	<build>
 		<finalName>RichFacesCalendar</finalName>
-	
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -111,5 +103,5 @@
 			</plugin>
 		</plugins>
 	</build>
-  
+
 </project>
