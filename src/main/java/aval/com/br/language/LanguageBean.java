@@ -1,4 +1,4 @@
-package anbima.com.br;
+package aval.com.br.language;
 
 import java.io.Serializable;
 import java.util.LinkedHashMap;
